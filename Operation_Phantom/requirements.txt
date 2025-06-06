@@ -1,0 +1,10 @@
+# Required Python packages for Operation Phantom
+
+# For AES encryption in the build process
+pycryptodome
+
+# For DNS parsing in the C2 listener
+dnslib
+
+# For PGP encryption/decryption (optional, for future C2 enhancements)
+python-gnupg 
